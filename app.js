@@ -20,6 +20,6 @@ app.get("/gallery", (request, response) => {
     response.sendFile(__dirname + "/views/gallery.html");
 })
 
-app.listen(2000, () => {
-    console.log("Server is running on port 2000");
+app.listen(3000, () => {
+    console.log("Server is running on port 3000");
 })
